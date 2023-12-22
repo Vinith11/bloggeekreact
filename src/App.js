@@ -1,5 +1,6 @@
 import Card from "./components/Card";
 import Header from "./components/Header";
+import Posts from "./components/Posts";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <div class="flex-1 bg-gray-200">
           <div className="m-8">
             <Card />
+            {/* <Posts /> */}
           </div>
         </div>
 
