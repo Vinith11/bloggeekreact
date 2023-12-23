@@ -6,7 +6,7 @@ const Content = () => {
       <h1>C++</h1>
       <div className="text-2xl font-semibold">Heading</div>
       <div >
-        <div className="text-xl pt-4">Sub - heading</div>
+        <div className="text-xl pt-4" id="1.1">1.1 Sub - heading</div>
         <div className="text-l">Content 1</div>
 
         <div className="text-xl pt-4">Sub - heading</div>
@@ -17,6 +17,7 @@ const Content = () => {
 
         <div className="text-xl pt-4">Sub - heading</div>
         <div className="text-l">Content 1</div>
+        
       </div>
     </div>
   );

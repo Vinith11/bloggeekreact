@@ -15,11 +15,11 @@ export default function App() {
       <div class="flex flex-col min-h-screen">
         <div class="flex-1 bg-gray-200">
           <div className="m-8">
-            <Card />
+            {/* <Card /> */}
             {/* <Posts /> */}
             <Cpp/>
-            <Javascript/>
-            <Python/>
+            {/* <Javascript/>
+            <Python/> */}
           </div>
         </div>
 
