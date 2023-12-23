@@ -1,5 +1,5 @@
 import React from "react";
-import Dropdown from "../../components/Dropdown";
+import Dropdown from "./Dropdown";
 
 const Topic = () => {
   return (

@@ -5,7 +5,7 @@ import Content from "./Content";
 const Javascript = () => {
   return (
     <div className="">
-      <div className="flex gap-4">
+      <div className="flex max-sm:flex-col gap-4">
         <Topic />
         <Content/>
       </div>
