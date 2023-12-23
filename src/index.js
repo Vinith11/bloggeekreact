@@ -3,11 +3,33 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {
+  Route,
+  RouterProvider,
+  createBrowserRouter,
+  createRoutesFromElements,
+} from "react-router-dom";
+import Card from './components/Card';
+import Cpp from './Blogs/Cpp/Cpp';
+import Python from './Blogs/Python/Python';
+import Javascript from './Blogs/Javascript/Javascript';
+import Layout from './Layout';
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<Layout />}>
+      <Route path="" element={<Card />} />
+      <Route path="cpp" element={<Cpp />} />
+      <Route path="python" element={<Python />} />
+      <Route path="javascript" element={<Javascript />} />
+    </Route>
+  )
+);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

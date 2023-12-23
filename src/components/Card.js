@@ -5,7 +5,7 @@ import Ronaldo from "../assets/Ronaldo.webp";
 const Card = () => {
   return (
     <section>
-      <div className="flex flex-row gap-4 max-sm:flex-col ">
+      <div className="flex h-screen w-full pt-2 flex-row gap-4 max-sm:flex-col ">
         <div className="flex justify-center shadow-sm rounded-lg parent-div">
           <div className="child-div w-11/12 ">
             <img
