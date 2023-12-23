@@ -20,7 +20,7 @@ const Topic = () => {
         </div>
       </div>
       {/* Dropdown for mobile */}
-      <div className="flex justify-center items-center lg:hidden">
+      <div className="flex justify-center items-center sm:hidden">
           {/* Dropdown for smaller screens */}
           <Dropdown/>
         </div>

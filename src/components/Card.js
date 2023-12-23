@@ -1,6 +1,6 @@
 import React from "react";
 import Ronaldo from "../assets/Ronaldo.webp";
-
+import { Link } from "react-router-dom";
 
 const Card = () => {
   return (
@@ -18,11 +18,10 @@ const Card = () => {
             <div>Posted By</div>
             <span> Date: </span>
             <div className="flex bg-red-600 rounded-lg items-center justify-center font-bold text-white p-2 m-2 mb-3">
-              Get Started 
+              <Link to="/cpp">Get Started</Link>
             </div>
           </div>
         </div>
-        
 
         <div className="flex justify-center shadow-sm rounded-lg parent-div">
           <div className="child-div w-11/12 ">
@@ -32,15 +31,14 @@ const Card = () => {
               alt=""
               className="rounded-lg mx-auto block"
             />
-            <h1>C++</h1>
+            <h1>Python</h1>
             <div>Posted By</div>
             <span> Date: </span>
             <div className="flex bg-red-600 rounded-lg items-center justify-center font-bold text-white p-2 m-2 mb-3">
-              Get Started 
+              <Link to="/python">Get Started</Link>
             </div>
           </div>
         </div>
-
 
         <div className="flex justify-center shadow-sm rounded-lg parent-div">
           <div className="child-div w-11/12 ">
@@ -50,18 +48,17 @@ const Card = () => {
               alt=""
               className="rounded-lg mx-auto block"
             />
-            <h1>C++</h1>
+            <h1>Java Script</h1>
             <div>Posted By</div>
             <span> Date: </span>
             <div className="flex bg-red-600 rounded-lg items-center justify-center font-bold text-white p-2 m-2 mb-3">
-              Get Started 
+              <Link to="/javascript">Get Started</Link>
             </div>
           </div>
         </div>
 
-
         <div className="flex justify-center shadow-sm rounded-lg parent-div">
-          <a href='/' className="child-div w-11/12 ">
+          <a href="/" className="child-div w-11/12 ">
             <img
               src={Ronaldo}
               width={360}
@@ -72,9 +69,10 @@ const Card = () => {
             <div>Posted By</div>
             <span> Date: </span>
             <div className="flex bg-red-600 rounded-lg items-center justify-center font-bold text-white p-2 m-2 mb-3">
-              Get Started 
+              <Link>Get Started</Link>
             </div>
-          </a>     </div>
+          </a>{" "}
+        </div>
       </div>
     </section>
   );

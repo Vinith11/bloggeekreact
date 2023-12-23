@@ -4,7 +4,7 @@ import Content from "./Content";
 
 const Cpp = () => {
   return (
-    <div className="">
+    <div id="#cpp">
       <div className="flex max-sm:flex-col gap-4">
         <Topic />
         <Content/>
