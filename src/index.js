@@ -13,11 +13,10 @@ import Card from './components/Card';
 import Cpp from './Blogs/Cpp/Cpp';
 import Python from './Blogs/Python/Python';
 import Javascript from './Blogs/Javascript/Javascript';
-import Layout from './Layout';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<Layout />}>
+    <Route path="/" element={<App />}>
       <Route path="" element={<Card />} />
       <Route path="cpp" element={<Cpp />} />
       <Route path="python" element={<Python />} />
