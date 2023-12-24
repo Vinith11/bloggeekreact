@@ -1,5 +1,6 @@
 import React from "react";
 import Dropdown from "./Dropdown";
+import {navLinks} from "./";
 
 const Topic = () => {
   return (
@@ -11,11 +12,9 @@ const Topic = () => {
         <div className="flex flex-col pr-[180px] h-screen rounded-lg shadow-xl p-3">
           <div className="">
             <ul>
-            <li><a href="#1.1">1.1</a></li>
-            <li><a href="#1.2">1.2</a></li>
-            <li><a href="#1.3">1.3</a></li>
-            <li><a href="#1.4">1.4</a></li>
-            <li><a href="#1.5">1.5</a></li>
+              {navLinks.map((items)=>(
+                <li key={items.label}><a href={items.href}>{items.label}</a></li>
+              ))}
             </ul>
           </div>
         </div>
