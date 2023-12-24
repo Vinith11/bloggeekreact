@@ -8,7 +8,7 @@ const Topic = () => {
       
       {/* Sidebar */}
       <div className="max-sm:hidden bg-gray-200 fixed">
-        <p className=" ">Topic</p>
+        <p className=" p-3 ">Topic</p>
         <div className="flex flex-col pr-[180px] h-screen rounded-lg shadow-xl p-3">
           <div className="">
             <ul>
@@ -24,8 +24,6 @@ const Topic = () => {
           {/* Dropdown for smaller screens */}
           <Dropdown/>
         </div>
-
-        
     </div>
   );
 };
