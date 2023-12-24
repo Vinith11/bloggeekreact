@@ -4,7 +4,7 @@ import Content from "./Content";
 
 const Python = () => {
   return (
-    <div className="">
+    <div id="#python">
       <div className="flex max-sm:flex-col gap-4">
         <Topic />
         <Content/>

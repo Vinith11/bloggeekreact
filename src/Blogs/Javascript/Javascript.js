@@ -4,7 +4,7 @@ import Content from "./Content";
 
 const Javascript = () => {
   return (
-    <div className="">
+    <div id="#javascript">
       <div className="flex max-sm:flex-col gap-4">
         <Topic />
         <Content/>

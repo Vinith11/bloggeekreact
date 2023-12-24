@@ -1,6 +1,6 @@
 import React from "react";
 import Dropdown from "./Dropdown";
-import {navLinks} from "./";
+import {navLinks} from ".";
 
 const Topic = () => {
   return (
