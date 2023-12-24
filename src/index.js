@@ -9,15 +9,15 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
-import Card from './components/Card';
 import Cpp from './Blogs/Cpp/Cpp';
 import Python from './Blogs/Python/Python';
 import Javascript from './Blogs/Javascript/Javascript';
+import Home from './components/Home';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
-      <Route path="" element={<Card />} />
+      <Route path="" element={<Home/>} />
       <Route path="cpp" element={<Cpp />} />
       <Route path="python" element={<Python />} />
       <Route path="javascript" element={<Javascript />} />

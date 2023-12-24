@@ -2,7 +2,7 @@ import React from "react";
 
 const Content = () => {
   return (
-    <div className=" flex flex-col pt-10 gap-6 sm:ml-[210px]">
+    <div className=" flex flex-col pt-10 gap-6 sm:ml-[210px] max-sm:mx-6">
       <h1>Python</h1>
 
       <div className="text-2xl font-semibold">Heading</div>
