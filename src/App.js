@@ -1,6 +1,3 @@
-import Cpp from "./Blogs/Cpp/Cpp";
-import Javascript from "./Blogs/Javascript/Javascript";
-import Python from "./Blogs/Python/Python";
 import Header from "./components/Header";
 import { Outlet } from "react-router-dom";
 import Footer from "./components/Footer";

@@ -1,6 +1,4 @@
 import React from "react";
-import Ronaldo from "../assets/Ronaldo.webp";
-import { Link } from "react-router-dom";
 import {details} from "."
 import Card from "./Card";
 
