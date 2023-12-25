@@ -1,8 +1,7 @@
 import React from "react";
-import { navLinks } from ".";
 import LinkList from "./LinkList";
 
-const Topic = () => {
+const Topic = ({navLinks}) => {
   return (
     <div>
       {/* Sidebar */}

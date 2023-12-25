@@ -1,22 +1,25 @@
 import React from "react";
-import Topic from "./Topic";
+import Topic from "../../components/links/Topic";
 import Content from "./Content";
 import ScrollButton from "../../components/scrollBtn/ScrollButton";
-import Dropdown from "./Dropdown";
+import Dropdown from "../../components/links/Dropdown";
+import { navLinks } from "./index";
 
 const Cpp = () => {
   return (
     <div id="#cpp">
       <div className="flex max-sm:flex-col gap-4">
-      <div className="flex justify-center items-center sm:hidden">
-          {/* Dropdown for smaller screens */}
-          <Dropdown />
-        </div>
-        <Topic />
+
+          <div>
+            <div className="flex justify-center items-center sm:hidden">
+              <Dropdown navLinks={navLinks} />
+            </div>
+            <Topic navLinks={navLinks} />
+          </div>
+
         <Content />
         <ScrollButton />
         {/* Dropdown for mobile */}
-        
       </div>
     </div>
   );

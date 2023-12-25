@@ -1,12 +1,12 @@
 import { Fragment } from "react";
 import { Menu, Transition } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
-import { navLinks } from "./";
+// import { navLinks } from "../../Blogs/Cpp";
 import DropList from "./DropList";
 
 
 
-export default function Dropdown() {
+export default function Dropdown({navLinks}) {
   return (
     <Menu as="div" className="relative inline-block text-left pt-4">
       <div>
