@@ -5,9 +5,9 @@ import Card from "./Card";
 const Home = () => {
   return (
     <section>
-      <div className="pt-2 gap-4 ">
-        <div className="justify-center shadow-sm rounded-lg ">
-          <div className="flex  gap-2 p-3 ml-2 max-sm:flex-col ">
+      <div className="flex justify-center  items-center pt-2 gap-4 ">
+        <div className="shadow-sm rounded-lg ">
+          <div className=" gap-2 p-3 ml-2 max-sm:flex-col ">
             {
               details.map((items)=>(
                 <Card key={items.name} {...items}/>
